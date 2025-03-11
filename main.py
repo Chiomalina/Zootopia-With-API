@@ -17,7 +17,7 @@ def main():
     animal_name = input("Enter a name of an animal: ")
 
     # 1) Fetch data from API(Note: 2 functions were created for fetching data from file and from API
-    # for scalability and future compatibility. animals_list = fetch_data_from_file("files/animals_data.json")
+    # Note: animals_list = fetch_data_from_file("files/animals_data.json")
     animals_list = fetch_data_from_API(animal_name)
 
     # 2) Generate the website using the data gotten from step(1)
